@@ -1,0 +1,23 @@
+Taller JavaScript
+
+Considera estás desarrollando una app  donde se necesita procesar un formulario de registro de una persona, para ello se debe crear un objeto en JavaScript de nombre Persona con los siguientes atributos:
+
+nombre: String
+apellidos: String: 
+fechanacimento Date, 
+Estado civil: String
+numeroDocumentoIdentidad: String
+Número de celular: String
+
+Implementar los siguientes requerimientos:
+
+1 Define un constructor y los métodos para poder establecer y obtener los valores de los atributos. 
+2 Implementar métodos en la clase para:
+2.1 Convertir el nombre a mayúscula
+2.2 Convertir el apellido en mayúscula
+2.3 Validar la fecha de nacimiento, es decir no deben existir personas con más de 100 años o menos de o años
+2.4 Validar que le numero de celular tenga exactamente 10 digitos
+2.5Validar que el primer dígito del celular sea el número 3
+2.6 Validar que el nombre y/o el apellidos no superen los 30 caracteres.
+3 Definir dos variables para clase persona.
+4 El sistema debe validar cúal de las dos personas es mayor que la otra
